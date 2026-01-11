@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="inventory_aplication.Tests/inventory_aplication.Tests.csproj" />
+  <Project Path="inventory_aplication/inventory_aplication.csproj" />
+</Solution>
