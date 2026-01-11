@@ -45,6 +45,13 @@ docker compose up --build
 - Swagger: http://localhost:5000/swagger  
 
 ---
+## Healt Check
+The api includes a heatlh check endpoind to verify the service availability.
+
+| Method | Endpoind | Description |
+| Get | /health | Verifies that API is running |
+
+**Note:** The health check endpoind is not part of Swagger, as it is designed for infrastructure and monitoring usage.
 
 ## Authentication
 
